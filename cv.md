@@ -1,28 +1,28 @@
 # ARSENI AKULAU
-## CONTACTS
+## Contacts
 1. telegram: @arteniy
 2. discord: akulov arseni(@AkulovArseniy)
 3. [linkedin](https://www.linkedin.com/in/arseniy-akulov-a087a11a0/)
 4. [github](https://github.com/AkulovArseniy)
 5. email: akulauarseny@gmail.com
-## SUMMARY
+## Summary
 my goal is become a great software engineer!
-## RELEVANT SKILLS 
+## Relevant skills 
 - HTML 
 - CSS 
-## CODE EXAMPLE 
+## Code example
 ```
 function numberToString(num) {
  var num;
   return(num.toString());// Return a string of the number here!
 }
 ```
-## EXPERIANCE 
+## Experiance 
 I don't have any experience yet 
-## EDUCATION 
+## Education
 * Belarusian National Technical University
 
     + specialty: road traffic organization
     + year of Graduation: 2020
-## LANGUAGE
+## Language
 English level : A2
