@@ -17,7 +17,7 @@ function numberToString(num) {
   return(num.toString());// Return a string of the number here!
 }
 ```
-## Experiance 
+## Experience 
 I don't have any experience yet 
 ## Education
 * Belarusian National Technical University
