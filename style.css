@@ -1,1 +1,79 @@
-<!DOCTYPE css>
+:root{
+    font-family: 'Times New Roman', Times, serif;
+}
+* {
+    box-sizing: border-box;
+  }
+ .name{
+    text-align: center;
+    margin: 8% 37.5%;
+    position: static;
+
+ } 
+.pfp{
+    margin: 8% 37.5%;
+    position: static;
+    width:25%;
+    height:25%;
+    border-radius: 3%;
+}
+body {
+    min-height: 1000px;
+    font-family:'Courier New', Courier, monospace, sans-serif; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.header{
+    font-size: 22px;
+    position: fixed;
+    height: 55px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    background-color: #36486b;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 75%);
+}
+.main{
+    margin-top: 59px;
+    position:static;
+}
+.nav-item {
+    list-style: none;
+}
+.nav-link {
+    color:lemonchiffon;
+    padding: 0px 20px;
+    line-height: 50px;
+  }
+
+.nav-list{
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.summary{
+    text-align: center;
+    position: static;
+}
+.contacts{
+    text-align: center;
+    position: static;
+}
+.relevant-skills{
+    text-align: center;
+    position: static;
+}
+.code-example{
+    border: 1px solid khaki;
+}
+.create-date{
+    text-align: center;
+    position: static;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
