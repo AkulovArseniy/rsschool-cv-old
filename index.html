@@ -13,38 +13,38 @@
     <header class="header">
         <nav class="nav">
         <ul class="nav-list">
-            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
             <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <img class="pfp" src="./assets/img/image.jpg" alt="my photo">
         <h1 class="name">AKULAU ARSENI</h1>
-        <div class="summary">
-            <h2>SUMMARY</h2>
+        <div class="alignment">
+            <h2 id="summary">SUMMARY</h2>
             <p>my goal is become a great software engineer!</p>
         </div>
-        <div class="contacts">
-            <h2>CONTACTS</h2>
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#contacts" class="nav-link">telegram</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">discord</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">linkedin</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">email</a></li>
+        <div class="alignment">
+            <h2 id="contacts">CONTACTS</h2>
+            <ul>
+                <li class="nav-item">telegram: @arteniy</li>
+                <li class="nav-item">discord:akulov arseni(@AkulovArseniy)</li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/arseniy-akulov-a087a11a0/">linkedin</a></li>
+                <li class="nav-item">email:akulauarseny@gmail.com</li>
                 </ul>
         </div>
-        <div class="relevant-skills">
+        <div id="skills" class="alignment">
             <h2>RELEVANT SKILLS</h2>
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#contacts" class="nav-link">HTML</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">CSS</a></li>
+            <ul>
+                <li class="nav-item">HTML</li>
+                <li class="nav-item">CSS</li>
                 </ul>
         </div>
         <div>
-            <h2>CODE EXAMPLE</h2>
-            <pre><code  class="code-example"><pre>
+            <h2 class="code-example-paragraph">CODE EXAMPLE</h2>
+            <pre class="code-example"><code>
                 function numberToString(num) {
                 var num;
                  return(num.toString());// Return a string of the number here!
@@ -53,17 +53,27 @@
         </div>
         
     </main>
-    <div class="recent-projects">
+    <div class="alignment">
         <h2>Recent projects</h2>
         <ul>
-            <li class="nav-item"><a href="#contacts">markdown</a></li>
-            <li class="nav-item"><a href="#summary">cv1</a></li>
-            </ul>
+            <li class="nav-item"><a href="https://akulovarseniy.github.io/rsschool-cv/cv">CV#1. Markdown & Git</a></li>
+            <li class="nav-item"><a href="https://github.com/AkulovArseniy/rsschool-cv/commits/gh-pages">CV#2. HTML, CSS & Git Basics</a></li>
+        </ul>
     </div>
+    <div class="alignment">
+        <h2 id="education">EDUCATION</h2>
+        <ul>
+            <li class="nav-item">Belarusian National Technical University</li>
+            <li class="nav-item">specialty: road traffic organization</li>
+            <li class="nav-item">year of Graduation: 2020</li>
+            <li class="nav-item">English level : A2</li>
+        </ul>  
+    </div>    
+
 <footer class="footer">
-    <div class="create-date">Git</div>
+    <a href="https://github.com/AkulovArseniy"><img class="git-logo" src="./assets/img/icons8-github.svg" alt="github-logo"></a>
     <div class="create-date">December 2022</div>
-    <div class="create-date">RsLogo</div>
+    <a href="https://rs.school/js-en/"><img class="rsschool-logo" src="./assets/img/rs_school_js.svg" alt="rsschool-logo"></a>
 </footer>
 </body>
 </html>
