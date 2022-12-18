@@ -1,12 +1,18 @@
 :root{
     font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    font-size: 22px;
 }
 * {
     box-sizing: border-box;
   }
+  .h2{
+    text-align: center;
+    position: static;
+  }
  .name{
     text-align: center;
-    margin: 8% 37.5%;
+    margin: 5px;
     position: static;
 
  } 
@@ -36,13 +42,14 @@ body {
 }
 .main{
     margin-top: 59px;
+    margin-bottom: 0px;
     position:static;
 }
 .nav-item {
     list-style: none;
 }
 .nav-link {
-    color:lemonchiffon;
+    color:black;
     padding: 0px 20px;
     line-height: 50px;
   }
@@ -53,27 +60,34 @@ body {
     justify-content: flex-end;
     align-items: center;
 }
-.summary{
-    text-align: center;
-    position: static;
-}
-.contacts{
-    text-align: center;
-    position: static;
-}
 .relevant-skills{
     text-align: center;
     position: static;
 }
+.code-example-paragraph{
+    text-align: center;
+    position: static;
+}
 .code-example{
-    border: 1px solid khaki;
+    border: 1px solid rgb(78, 34, 71);
 }
 .create-date{
     text-align: center;
     position: static;
 }
 .footer{
+    width: 100%;
+    background-color: #36486b;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 75%);
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+}
+.rsschool-logo{
+    height: 30px;
+}
+.alignment{
+    text-align: center;
+    position: static;
 }
